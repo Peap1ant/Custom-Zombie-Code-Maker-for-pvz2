@@ -5,7 +5,7 @@ More feature will be add in future
 
 Read Setup Tutorial.md for setup CZCM, How to use.md for tutorial for tool use
 
-Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases)
+Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases) for lates
 
 Made by Peaplant
 
