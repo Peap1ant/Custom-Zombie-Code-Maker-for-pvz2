@@ -34,3 +34,5 @@ RG & AG is for make Resource Groups and Audio Groups
   but leave my nickname as original maker
 
 * When you found bug with CZCM, DM me as 𓄵𓄶𓄳𓄳𓄶𓄵𓄶𓄳𓄶𓄵𓄳𓄵𓄶#2806
+
+* If you can`t use download files from Github, use [Google Drive](https://drive.google.com/drive/folders/1QJk3kmjBC5pce6Wm5FvTFiisCFb4pztX?usp=sharing)
