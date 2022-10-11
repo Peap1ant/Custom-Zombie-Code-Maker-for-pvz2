@@ -13,3 +13,13 @@
 
 - Upload to Githup instead Google drive 
 - Add dropbox for PF
+
+### 0.3 (soon)
+
+ - Add plant`s resource
+ - New options for add all resource in RG
+ - New Sub-program : Custom Action Generator (CAG) for make Custom action
+
+---
+
+Future update`s feature can be changed or deleted
