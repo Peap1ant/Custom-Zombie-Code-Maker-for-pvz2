@@ -10,8 +10,9 @@ Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2
 Made by Peaplant
 
 Special thanks to
-* Osamah, main idea for CZCM from Osamah`s tool
-* Haruma, for better way for dropbox and make can add custom things
+- Osamah, main idea for CZCM from Osamah`s tool
+- Haruma, for better way for dropbox and make can add custom things
+- Nice Zombies, helping fix path problem
 
 ---
 
