@@ -25,7 +25,7 @@ Better then entry box
 -  [ ] Add dropbox for Pop Anim  
 I forgot to make this to dropbox  
 
--  [ ] Now don`t need to use C Drive only  
+-  [x] Now don`t need to use C Drive only  
 Use only C Drive only is bad idea, with f string and os we can use CZCM at any folder!
 
 ### 0.3 (soon)
