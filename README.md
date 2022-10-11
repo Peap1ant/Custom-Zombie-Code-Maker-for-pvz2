@@ -1,9 +1,11 @@
 # Custom Zombie Code Maker (CZCM) for pvz2
 ---
-CZCM is tool for making your own custom zombie in-level
+CZCM is tool for making your own custom zombie in-level  
 More feature will be add in future
 
 Read Setup Tutorial.md for setup CZCM, How to use.md for tutorial for tool use
+
+Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases)
 
 Made by Peaplant
 
