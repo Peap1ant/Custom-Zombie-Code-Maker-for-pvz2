@@ -2,10 +2,14 @@
 
 ### 0.1
 
-Release CZCM
+- Release CZCM
 
 ### 0.2
 
-New dropbox system instead some entry box
-New sub-program : RG & AGG for Resource and Audio
-Upload to Githup instead Google drive 
+- New dropbox system instead some entry box
+- New sub-program : RG & AGG for Resource and Audio
+
+### 0.2.1
+
+- Upload to Githup instead Google drive 
+- Add dropbox for PF
