@@ -23,7 +23,7 @@ Github is better then G Drive because now can found by searching
 - Add dropbox for PF  
 Better then entry box  
 
-### 0.2.2 (soon)  
+### 0.2.2
 
 - Add dropbox for Pop Anim  
 I forgot to make this to dropbox  
