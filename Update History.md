@@ -18,7 +18,7 @@
 
  -  [ ] Add plant`s resource
  -  [ ] New options for add all resource in RG
- -  [ ] New Sub-program : Custom Action Generator (CAG) for make Custom action (maybe)
+ -  [ ] New Sub-program : Custom Action Generator (CAG) for make Custom action (maybe will be cancel)
 
 ---
 
