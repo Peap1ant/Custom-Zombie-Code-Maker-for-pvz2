@@ -20,6 +20,14 @@ Github is better then G Drive because now can found by searching
 - Add dropbox for PF  
 Better then entry box  
 
+### 0.2.2 (soon)  
+
+-  [ ] Add dropbox for Pop Anim  
+I forgot to make this to dropbox  
+
+-  [ ] Now don`t need to use C Drive only  
+Use only C Drive only is bad idea, with f string and os we can use CZCM at any folder!
+
 ### 0.3 (soon)
 
  -  [ ] Add plant`s resource
