@@ -18,9 +18,9 @@ Special thanks to
 Sub-program for CZCM, for add some options easily
 Tutorial for Sub-program, read How to use.md
 
-## Resource Generator & Audio Groups Generator (RG & AGG)
+## Resource Generator & Audio Generator (RG & AG)
 
-RG & AGG is for make Resource Groups and Audio Groups
+RG & AG is for make Resource Groups and Audio Groups
 
 # Note
 
