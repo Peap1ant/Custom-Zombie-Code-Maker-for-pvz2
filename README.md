@@ -22,9 +22,7 @@ Tutorial for Sub-program, read How to use.md
 
 RG & AGG is for make Resource Groups and Audio Groups
 
----
-
-## Note
+# Note
 
 * When You want to use multiple lines, you need to write in other json or txt files and copy-paste it
   I want make to enter key work in tool, but I can't so you need to use like that
