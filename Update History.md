@@ -12,6 +12,9 @@ That`s better way then entry box
 - New sub-program : RG & AGG for Resource and Audio  
 I think both in put need to be multiple lines so I made program for make both things easily  
 
+- Now can add custom things in dropbos for mod stuff  
+Speciak thanks to Haruma : make better way for dropbox and can add custom things
+
 ### 0.2.1
 
 - Upload to Githup instead Google drive  
@@ -26,7 +29,8 @@ Better then entry box
 I forgot to make this to dropbox  
 
 - Now don`t need to use C Drive only  
-Use only C Drive only is bad idea, with f string and os we can use CZCM at any folder!
+Use only C Drive only is bad idea, with f string, sys and os we can use CZCM at any folder!  
+Speciak thanks to Nice Zombies : fix path problem
 
 ### 0.3 (soon)
 
