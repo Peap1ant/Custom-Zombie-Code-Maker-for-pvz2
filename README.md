@@ -13,6 +13,17 @@ Special thanks to
 
 ---
 
+# Sub-program
+
+Sub-program for CZCM, for add some options easily
+Tutorial for Sub-program, read How to use.md
+
+## Resource Generator & Audio Groups Generator (RG & AGG)
+
+RG & AGG is for make Resource Groups and Audio Groups
+
+---
+
 ## Note
 
 * When You want to use multiple lines, you need to write in other json or txt files and copy-paste it
