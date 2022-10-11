@@ -32,9 +32,7 @@ RG & AG is for make Resource Groups and Audio Groups
 
 - When you using exe file, need few sec to open because tech problem
 
-- Also, CZCM is open source so I uploaded python code
-  If you want edit CZCM and make more better version, that's fine
-  but leave my nickname as original maker
+- Also, CZCM is follow GPL-3.0
 
 - When you found bug with CZCM, DM me as 𓄵𓄶𓄳𓄳𓄶𓄵𓄶𓄳𓄶𓄵𓄳𓄵𓄶#2806
 
