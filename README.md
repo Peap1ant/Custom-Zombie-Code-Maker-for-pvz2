@@ -27,15 +27,15 @@ RG & AG is for make Resource Groups and Audio Groups
 
 # Note
 
-* When You want to use multiple lines, you need to write in other json or txt files and copy-paste it
+- When You want to use multiple lines, you need to write in other json or txt files and copy-paste it
   I want make to enter key work in tool, but I can't so you need to use like that
 
-* When you using exe file, need few sec to open because tech problem
+- When you using exe file, need few sec to open because tech problem
 
-* Also, CZCM is open source so I uploaded python code
+- Also, CZCM is open source so I uploaded python code
   If you want edit CZCM and make more better version, that's fine
   but leave my nickname as original maker
 
-* When you found bug with CZCM, DM me as 𓄵𓄶𓄳𓄳𓄶𓄵𓄶𓄳𓄶𓄵𓄳𓄵𓄶#2806
+- When you found bug with CZCM, DM me as 𓄵𓄶𓄳𓄳𓄶𓄵𓄶𓄳𓄶𓄵𓄳𓄵𓄶#2806
 
-* If you can`t use download files from Github, use [Google Drive](https://drive.google.com/drive/folders/1QJk3kmjBC5pce6Wm5FvTFiisCFb4pztX?usp=sharing)
+- If you can`t use download files from Github, use [Google Drive](https://drive.google.com/drive/folders/1QJk3kmjBC5pce6Wm5FvTFiisCFb4pztX?usp=sharing)
