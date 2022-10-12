@@ -34,9 +34,15 @@ Speciak thanks to Nice Zombies : fix path problem
 
 ### 0.3 (soon)
 
- -  [ ] Add plant`s resource
- -  [ ] New options for add all resource in RG
- -  [ ] New Sub-program : Custom Action Generator (CAG) for make Custom action (maybe will be cancel)
+ - [ ] Add plant`s resource
+ - [ ] New options for add all resource in RG
+ - [ ] Add menu in CZCM for run Sub-program as menu buttons
+ - [ ] New Sub-program : Extra Code Generator (ECG) for Extra Codes
+It will generate some code for specific zombies or armors, etc
+
+0.3 update will be last update in this year  
+I have Korean SAT at November and I need to return the laptop to school which I using for CZCM  
+I will return at 2023 January ~ March
 
 ---
 
