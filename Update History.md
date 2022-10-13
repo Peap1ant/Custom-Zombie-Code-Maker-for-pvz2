@@ -34,8 +34,8 @@ Speciak thanks to Nice Zombies : fix path problem
 
 ### 0.3 (soon)
 
- - [ ] Add plant`s resource
- - [ ] New options for add all resource in RG
+ - [x] Add plant`s resource
+ - [x] New options for add all resource in RG
  - [x] Add menu in CZCM for run Sub-program with menu buttons
  - [ ] New Sub-program : Extra Code Generator (ECG) for Extra Codes
 It will generate some code for specific zombies or armors, etc
