@@ -36,9 +36,11 @@ Speciak thanks to Nice Zombies : fix path problem
 
  - [x] Add plant`s resource
  - [x] New options for add all resource in RG
- - [x] Add menu in CZCM for run Sub-program with menu buttons
- - [ ] New Sub-program : Extra Code Generator (ECG) for Extra Codes
-It will generate some code for specific zombies or armors, etc
+ - ~~Add menu in CZCM for run Sub-program with menu buttons~~  
+This feature was cancelled because menu buttons make python stop
+
+ - [ ] New Sub-program : Extra Code Generator (ECG) for Extra Codes  
+ It will generate some code for specific zombies or armors, etc
 
 0.3 update will be last update in this year  
 I have Korean SAT at November and I need to return the laptop to school which I using for CZCM  
