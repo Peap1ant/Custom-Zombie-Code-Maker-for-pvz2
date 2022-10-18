@@ -44,7 +44,7 @@ This feature was cancelled because menu buttons make python stop
  - [ ] New Sub-program : Extra Code Generator (ECG) for Extra Codes  
 It will generate some code for specific zombies or armors, etc  
 
-Progress : 
+ECG Making Progress : 
  - [x] Zombie Types Extra    
  - [ ] Zombie Properties Extra    
  - [ ] Custom Armor (Now working this)  
