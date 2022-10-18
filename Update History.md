@@ -35,12 +35,26 @@ Speciak thanks to Nice Zombies : fix path problem
 ### 0.3 (soon)
 
  - [x] Add plant`s resource
- - [x] New options for add all resource in RG
+ - [x] New options for add all resource in RG  
+For lazy people like me  
+
  - ~~Add menu in CZCM for run Sub-program with menu buttons~~  
 This feature was cancelled because menu buttons make python stop
 
  - [ ] New Sub-program : Extra Code Generator (ECG) for Extra Codes  
- It will generate some code for specific zombies or armors, etc
+It will generate some code for specific zombies or armors, etc  
+
+Progress : 
+ - [x] Zombie Types Extra    
+ - [ ] Zombie Properties Extra    
+ - [ ] Custom Armor (Now working this)  
+ - [ ] Srecific Zombies  
+
+ - [ ] Add dropbox for GroundTrackName  
+Why I didn`t change this  
+
+ - [ ] Add default values as basic zombie  
+For easy add values  
 
 0.3 update will be last update in this year  
 I have Korean SAT at November and I need to return the laptop to school which I using for CZCM  
