@@ -54,7 +54,11 @@ ECG Making Progress :
 Why I didn`t change this  
 
  - [ ] Add default values as basic zombie  
-For easy add values  
+For easy add values 
+
+ - [x] Now all programs will place 0, 0 when open
+I used 240, 0 for window place, but now it`s 0, 0 now
+Best update in history
 
 0.3 update will be last update in this year  
 I have Korean SAT at November and I need to return the laptop to school which I using for CZCM  
