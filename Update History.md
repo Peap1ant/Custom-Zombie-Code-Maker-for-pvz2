@@ -46,8 +46,8 @@ It will generate some code for specific zombies or armors, etc
 
 ECG Making Progress : 
  - [x] Zombie Types Extra    
- - [ ] Zombie Properties Extra    
- - [ ] Custom Armor (Now working this)  
+ - [ ] Zombie Properties Extra (Now working this)  
+ - [x] Custom Armor (Almost finished, testing in game stage)
  - [ ] Srecific Zombies  
 
  - [ ] Add dropbox for GroundTrackName  
