@@ -60,6 +60,9 @@ For easy add values
 I used 240, 0 for window place, but now it`s 0, 0 now
 Best update in history
 
+ - [ ] Fix bug which "prop" in CZCM`s Zombie Type Properties
+Yeah I forgot to delete that
+
 0.3 update will be last update in this year  
 I have Korean SAT at November and I need to return the laptop to school which I using for CZCM  
 I will return at 2023 January ~ March
