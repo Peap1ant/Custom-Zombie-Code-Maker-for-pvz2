@@ -44,7 +44,7 @@ It will generate some code for specific zombies or armors, etc
 ECG Making Progress : 
  - [x] Zombie Types Extra    
  - [ ] Zombie Properties Extra (Now working this)  
- - [x] Custom Armor (Almost finished, testing in game stage)
+ - [x] Custom Armor
  - [ ] Specific Zombies  
 I will add 5 zombies in ECG, for easy to make specific zombies
 
