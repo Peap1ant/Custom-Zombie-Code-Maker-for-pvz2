@@ -54,14 +54,14 @@ Why I didn`t change this
  - [ ] Add default values as basic zombie  
 For easy add values 
 
- - [x] Now all programs will place 0, 0 when open
-I used 240, 0 for window place, but now it`s 0, 0 now
+ - [x] Now all programs will place 0, 0 when open  
+I used 240, 0 for window place, but now it`s 0, 0 now  
 Best update in history
 
- - [x] Fix bug which "prop" in CZCM`s Zombie Type Properties
+ - [x] Fix bug which "prop" in CZCM`s Zombie Type Properties  
 Yeah I forgot to delete that
 
- - [x] Delete "--- Select from below options ---,", "--- Plant---". "--- Zombie ---" and "--- Custom ---" in options
+ - [x] Delete "--- Select from below options ---,", "--- Plant---". "--- Zombie ---" and "--- Custom ---" in options  
 That`s good for selected option and adding Custom code, but that make a lots of no-meaningful codes so I deleted it
 
 0.3 update will be last update in this year  
