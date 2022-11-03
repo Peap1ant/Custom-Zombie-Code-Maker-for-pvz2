@@ -49,9 +49,6 @@ ECG can make :
  - Add dropbox for GroundTrackName  
 Why I didn`t change this  
 
- - Add default values as basic zombie  
-For easy add values 
-
  - Now all programs will place 0, 0 when open  
 I used 240, 0 for window place, but now it`s 0, 0 now  
 Best update in history

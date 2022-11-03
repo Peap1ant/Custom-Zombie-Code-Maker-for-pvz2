@@ -4,7 +4,6 @@ import tkinter
 import tkinter.font
 import os
 import sys
-import subprocess
 
 
 # ------ main code -------
