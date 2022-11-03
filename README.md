@@ -3,9 +3,7 @@
 CZCM is tool for making your own custom zombie in-level  
 More feature will be add in future
 
-Read Setup Tutorial.md for setup CZCM, How to use.md for tutorial for tool use  
-
-More detailed guide will be upload soon  
+Guide for CZCM is [here](https://wikidocs.net/edit/book/8639)
 
 Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases) for lates update!
 If you can`t use download files from Github, use [Google Drive](https://drive.google.com/drive/folders/1QJk3kmjBC5pce6Wm5FvTFiisCFb4pztX?usp=sharing)
