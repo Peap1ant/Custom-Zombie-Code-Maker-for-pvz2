@@ -8,6 +8,7 @@ Read Setup Tutorial.md for setup CZCM, How to use.md for tutorial for tool use
 More detailed guide will be upload soon  
 
 Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases) for lates update!
+If you can`t use download files from Github, use [Google Drive](https://drive.google.com/drive/folders/1QJk3kmjBC5pce6Wm5FvTFiisCFb4pztX?usp=sharing)
 
 Made by Peaplant
 
@@ -41,5 +42,3 @@ ECG for make extra code for specific zombies or armors, etc
 - Also, CZCM is follow GPL-3.0
 
 - When you found bug with CZCM, DM me as 𓄵𓄶𓄳𓄳𓄶𓄵𓄶𓄳𓄶𓄵𓄳𓄵𓄶#2806
-
-- If you can`t use download files from Github, use [Google Drive](https://drive.google.com/drive/folders/1QJk3kmjBC5pce6Wm5FvTFiisCFb4pztX?usp=sharing)
