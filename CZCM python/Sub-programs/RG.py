@@ -14,7 +14,7 @@ win = tkinter.Tk()
 win.title('Resource Generator')
 
 # Resolution
-win.geometry('400x300+240+100')
+win.geometry('400x300+0+0')
 win.resizable(False, False)
 
 # Font
@@ -50,17 +50,16 @@ resource_format_5 = '''{0},
             {4}'''
 
 # File path
+# File path
 if getattr(sys, "frozen", False):
     path = os.path.dirname(sys.executable)
 else:
     path = sys.path[0]
-# Fix path for .py
-if "CZCM python\Sub-programs" in path:
-    path = path.replace('\\Sub-programs', '').strip()
-else:
-    path = path.replace("\\Sub-programs", "").strip()
-file_name = fr'{path}/Result json/Resource Generator.json'
 
+# Fix path for .py
+if "\\Sub-programs" in path:
+    path = path.replace('\\Sub-programs', '').strip()
+file_name = fr'{path}/Result json/Resource Generator.json'
 
 # Dropbox options
 
@@ -146,7 +145,10 @@ class commands:
         # For delete "Done!" message
         self.use_count = 0
 
-    # Command for codes and port as txt files
+        # For codes
+        self.codes = ""
+
+    # Command for codes and port as json files
 
     def making_codes(self):
 
@@ -182,7 +184,7 @@ class commands:
         self.codes = self.code_format.format(
             self.resource_1, self.resource_2, self.resource_3, self.resource_4, self.resource_5)
 
-        # Make txt file & Write Code
+        # Make json file & Write Code
         with open(file_name, "w") as out_file:
             out_file.write(str(self.codes))
 
@@ -192,6 +194,39 @@ class commands:
 
         self.use_count = 1
 
+    # Command for port all resources as json
+
+    def all_resources(self):
+
+        # Delete "Done!" message
+        if self.use_count == 1:
+            self.done.destroy()
+
+        # Load resources from txt
+        with open(f"{path}\Options\All resources.txt", "r") as file:
+            self.resources = file.read().split(", ")
+
+        # Len all resources
+        self.len_resources = len(self.resources)
+
+        # Add all resources as string
+        for self.i in range(0, self.len_resources):
+            if self.i == 0:
+                self.codes = self.codes + self.resources[self.i] + ','
+            elif self.i > 0 and self.i < self.len_resources - 1:
+                self.codes = self.codes +  "\n            " + self.resources[self.i] + ","
+            else:
+                self.codes = self.codes +  "\n            " + self.resources[self.i]
+
+        # Make json file & Write Code
+        with open(file_name, "w") as out_file:
+            out_file.write(str(self.codes))
+
+        # Place "Done!" message
+        self.done = tkinter.Label(win, text='Done!')
+        self.done.place(x=250, y=255)
+
+        self.use_count = 1
 
 # Load commands as c
 c = commands()
@@ -203,6 +238,11 @@ c = commands()
 make_file_btn = tkinter.Button(text="make json file", width=10)
 make_file_btn.config(command=c.making_codes)
 make_file_btn.place(x=300, y=250)
+
+# Button for make all resource json file
+make_file_btn = tkinter.Button(text="all resource json", width=15)
+make_file_btn.config(command=c.all_resources)
+make_file_btn.place(x=265, y=225)
 
 # ------ Open Window ------
 

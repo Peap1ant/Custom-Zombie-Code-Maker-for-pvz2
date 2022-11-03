@@ -14,7 +14,7 @@ win = tkinter.Tk()
 win.title('Audio Generator')
 
 # Resolution
-win.geometry('400x300+240+100')
+win.geometry('400x300+0+0')
 win.resizable(False, False)
 
 # Font
@@ -54,13 +54,11 @@ if getattr(sys, "frozen", False):
     path = os.path.dirname(sys.executable)
 else:
     path = sys.path[0]
-# Fix path for .py
-if "CZCM python\Sub-programs" in path:
-    path = path.replace('\\Sub-programs', '').strip()
-else:
-    path = path.replace("\\Sub-programs", "").strip()
-file_name = fr'{path}/Result json/Audio Generator.json'
 
+# Fix path for .py
+if "\\Sub-programs" in path:
+    path = path.replace('\\Sub-programs', '').strip()
+file_name = fr'{path}/Result json/Audio Generator.json'
 
 # Dropbox options
 
@@ -146,7 +144,7 @@ class commands:
         # For delete "Done!" message
         self.use_count = 0
 
-    # Command for codes and port as txt files
+    # Command for codes and port as json files
 
     def making_codes(self):
 
@@ -182,7 +180,7 @@ class commands:
         self.codes = self.code_format.format(
             self.audio_1, self.audio_2, self.audio_3, self.audio_4, self.audio_5)
 
-        # Make txt file & Write Code
+        # Make json file & Write Code
         with open(file_name, "w") as out_file:
             out_file.write(str(self.codes))
 

@@ -1,0 +1,1 @@
+none, "Play_Zomb_Egypt_Pharaoh_Impact_Hit", "Play_CamelPanel_Hit", "Play_PonchoZombie_ImpactPoncho", "Play_Zomb_WildWest_Poncho_Impact_Metal", "Play_impact_shieldhit", "Play_SurferZombie_ImpactBoard", "Play_Zomb_Modern_Newspaper_Paper_Impact", "Play_impact_shieldhit", "Play_splat"

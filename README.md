@@ -3,9 +3,11 @@
 CZCM is tool for making your own custom zombie in-level  
 More feature will be add in future
 
-Read Setup Tutorial.md for setup CZCM, How to use.md for tutorial for tool use
+Read Setup Tutorial.md for setup CZCM, How to use.md for tutorial for tool use  
 
-Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases) for lates
+More detailed guide will be upload soon  
+
+Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases) for lates update!
 
 Made by Peaplant
 
@@ -24,6 +26,10 @@ Tutorial for Sub-program, read How to use.md
 ## Resource Generator & Audio Generator (RG & AG)
 
 RG & AG is for make Resource Groups and Audio Groups
+
+## Extra Code Generator (ECG)  
+
+ECG for make extra code for specific zombies or armors, etc  
 
 # Note
 

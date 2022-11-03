@@ -1,0 +1,1 @@
+"Cone", "Bucket", "Brick", "CowboyHat", "Sarcophagus", "CamelSign", "Poncho", "PonchoPlate", "Crown", "Iceblock", "ShoulderArmor", "Skull", "Crown", "Ballon", "Surfboard", "SurfboardSurfing", "Shovel", "BasicCone", "BasicBucket", "Newspaper", "BunnyEars", "RomanShieldMain", "RomanShieldTop", "RomanGargantuarHelm", "ComplexBrick", "Laptop", "helmet", "Stilts"

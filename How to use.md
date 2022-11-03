@@ -16,6 +16,10 @@
 3. When finished, click “make json file” button
 4. There is new file in Result json, Copy-paste to CZCM for add it
 
+## ECG  
+
+Will be update when upload detailed Guide
+
 ---
 
 ## How to add your custom things
@@ -24,6 +28,5 @@ This tutorial is for add custom things from mods
 
 1. Open Options file in CZCM file
 2. Open txt file, see name for types of options
-3. Find "--- Custom ---" as ctrl+f
-4. Add new things to the right of "--- Custom ---, "
-5. !EACH OPTIONS NEED TO BE END WITH “, ” LIKE : '“test1”, “test2”, '(If you not do like this, options will be make error)
+3. Add new things to the right of last option
+4. !EACH OPTIONS NEED TO BE END WITH “, ” LIKE : '“test1”, “test2”, '(If you not do like this, options will be make error)

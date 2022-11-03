@@ -1,0 +1,1 @@
+none, "zombie_armor_brick_damage_02", "particle_hat", "particle_poncho, "particle_plate", "zombie_poncho_armor1_damage1", "zombie_poncho_armor1_damage2", "particle_shovel", "bunny_ears", "helm", --- Custom ---

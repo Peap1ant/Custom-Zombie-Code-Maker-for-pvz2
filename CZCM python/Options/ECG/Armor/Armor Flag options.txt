@@ -1,0 +1,1 @@
+none, "body", "helm", "metallic", "invincible", "damageable", "droppable", "absorboverflow", "passdamage"

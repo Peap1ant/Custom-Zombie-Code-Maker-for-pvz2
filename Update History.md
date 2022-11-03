@@ -32,41 +32,45 @@ I forgot to make this to dropbox
 Use only C Drive only is bad idea, with f string, sys and os we can use CZCM at any folder!  
 Speciak thanks to Nice Zombies : fix path problem
 
-### 0.3 (soon)
+### 0.3
 
- - [x] Add plant`s resource
- - [x] New options for add all resource in RG  
+ - Add plant`s resource
+ - New options for add all resource in RG  
 For lazy people like me  
 
- - [ ] New Sub-program : Extra Code Generator (ECG) for Extra Codes  
+ - New Sub-program : Extra Code Generator (ECG) for Extra Codes  
 It will generate some code for specific zombies or armors, etc  
 
-ECG Making Progress : 
- - [x] Zombie Types Extra    
- - [x] Zombie Properties Extra 
- - [x] Custom Armor
- - [ ] Specific Zombies  
-I will add 5 zombies in ECG, for easy to make specific zombies more zombie will add in future update, 2323 :)
+ECG can make : 
+ - Zombie Types Extra    
+ - Zombie Properties Extra 
+ - Custom Armor
 
- - [x] Add dropbox for GroundTrackName  
+ - Add dropbox for GroundTrackName  
 Why I didn`t change this  
 
- - [ ] Add default values as basic zombie  
+ - Add default values as basic zombie  
 For easy add values 
 
- - [x] Now all programs will place 0, 0 when open  
+ - Now all programs will place 0, 0 when open  
 I used 240, 0 for window place, but now it`s 0, 0 now  
 Best update in history
 
- - [x] Fix bug which "prop" in CZCM`s Zombie Type Properties  
+ - Fix bug which "prop" in CZCM`s Zombie Type Properties  
 Yeah I forgot to delete that
 
- - [x] Delete "--- Select from below options ---,", "--- Plant---". "--- Zombie ---" and "--- Custom ---" in options  
+ - Delete "--- Select from below options ---,", "--- Plant---". "--- Zombie ---" and "--- Custom ---" in options  
 That`s good for selected option and adding Custom code, but that make a lots of no-meaningful codes so I deleted it
 
 0.3 update will be last update in this year  
 I have Korean SAT at November and I need to return the laptop to school which I using for CZCM  
 I will return at 2023 January ~ March
+
+### 0.3.1 (soon)
+
+ - [ ] Add specific zombies codes in ECG
+That`s for easy to make specific zombies more zombie will add in future update, 2323 :)
+
 
 ---
 

@@ -4,6 +4,7 @@ import tkinter
 import tkinter.font
 import os
 import sys
+import subprocess
 
 
 # ------ main code -------
@@ -15,14 +16,14 @@ win = tkinter.Tk()
 win.title('CZCM')
 
 # Resolution
-win.geometry('1000x600+240+100')
+win.geometry('1000x600+0+0')
 win.resizable(False, False)
 
 # Font
 font = tkinter.font.Font(family="Arial", size=10)
 
 # Title
-title_text = tkinter.Label(win, text='Custom Zombie Code Maker Ver.0.2.2')
+title_text = tkinter.Label(win, text='Custom Zombie Code Maker Ver.0.3')
 title_text.pack(side='top')
 
 # Maker
@@ -31,13 +32,13 @@ maker.place(x=900, y=30)
 
 # Format
 cz_format = '''{{
-    "#comment": "{0} | CZCM Ver 0.2.2",
+    "#comment": "{0} | CZCM Ver 0.3",
     "objclass": "ZombieType",
     "aliases": ["{1}"],
     "objdata": {{
         "TypeName": "tutorial",
         "ZombieClass": {2},
-        "Properties": "RTID({3}Props@CurrentLevel)",
+        "Properties": "RTID({3}@CurrentLevel)",
         "ResourceGroups": [
             {4}
         ],
@@ -88,13 +89,13 @@ cz_format = '''{{
 }},'''
 
 cz_format_cc = '''{{
-    "#comment": "{0} | CZCM Ver 0.2.2",
+    "#comment": "{0} | CZCM Ver 0.3",
     "objclass": "ZombieType",
     "aliases": ["{1}"],
     "objdata": {{
         "TypeName": "tutorial",
         "ZombieClass": {2},
-        "Properties": "RTID({3}Props@CurrentLevel)",
+        "Properties": "RTID({3}@CurrentLevel)",
         "ResourceGroups": [
             {4}
         ],
@@ -147,7 +148,6 @@ cz_format_cc = '''{{
 }},'''
 
 # File path
-import sys
 if getattr(sys, "frozen", False):
     path = os.path.dirname(sys.executable)
 else:
@@ -252,7 +252,7 @@ extype_entry.place(x=200, y=241)
 
 # Pop Anim
 pop_label = tkinter.Label(win, text='Pop Anim : ')
-pop_label.place(x=50, y=405)
+pop_label.place(x=50, y=425)
 
 pop_drop = tkinter.StringVar()
 with open(f"{path}\Options\Pop Anim options.txt", "r") as file:
@@ -260,7 +260,7 @@ with open(f"{path}\Options\Pop Anim options.txt", "r") as file:
 
 pop_drop.set(pop_options[0])
 drop = tkinter.OptionMenu(win, pop_drop, *pop_options)
-drop.place(x=198, y=400)
+drop.place(x=198, y=420)
 
 
 # ------ Zombie Properties ------
@@ -356,81 +356,86 @@ attack_label = tkinter.Label(win, text='mY')
 attack_label.place(x=717, y=231)
 
 
-# Ground Track Name
+# Ground Track Name 
 ground_label = tkinter.Label(win, text='Ground Track Name : ')
-ground_label.place(x=450, y=250)
+ground_label.place(x=450, y=255)
 
-ground_entry = tkinter.Entry(win, width=20)
-ground_entry.place(x=600, y=251)
+ground_drop = tkinter.StringVar()
+with open(f"{path}\Options\Ground Track options.txt", "r") as file:
+    ground_options = file.read().split(", ")
+
+ground_drop.set(ground_options[0])
+drop = tkinter.OptionMenu(win, ground_drop, *ground_options)
+drop.place(x=598, y=250)
 
 # Hit Rect
 hit_label = tkinter.Label(win, text='Hit Rect : ')
-hit_label.place(x=450, y=270)
+hit_label.place(x=450, y=280)
 
 hit_mh_entry = tkinter.Entry(win, width=5)
-hit_mh_entry.place(x=600, y=271)
+hit_mh_entry.place(x=600, y=281)
 
 hit_mw_entry = tkinter.Entry(win, width=5)
-hit_mw_entry.place(x=635, y=271)
+hit_mw_entry.place(x=635, y=281)
 
 hit_mx_entry = tkinter.Entry(win, width=5)
-hit_mx_entry.place(x=670, y=271)
+hit_mx_entry.place(x=670, y=281)
 
 hit_my_entry = tkinter.Entry(win, width=5)
-hit_my_entry.place(x=705, y=271)
+hit_my_entry.place(x=705, y=281)
 
 hit_label = tkinter.Label(win, text='mHeight')
-hit_label.place(x=600, y=291)
+hit_label.place(x=600, y=301)
 
 hit_label = tkinter.Label(win, text='mWidth')
-hit_label.place(x=650, y=291)
+hit_label.place(x=650, y=301)
 
 hit_label = tkinter.Label(win, text='mX')
-hit_label.place(x=696, y=291)
+hit_label.place(x=696, y=301)
 
 hit_label = tkinter.Label(win, text='mY')
-hit_label.place(x=717, y=291)
+hit_label.place(x=717, y=301)
 
 # Shadow Offset
 shadow_label = tkinter.Label(win, text='Shadow Offset : ')
-shadow_label.place(x=450, y=310)
+shadow_label.place(x=450, y=320)
 
 shadow_x_entry = tkinter.Entry(win, width=7)
-shadow_x_entry.place(x=600, y=311)
+shadow_x_entry.place(x=600, y=321)
 
 shadow_y_entry = tkinter.Entry(win, width=7)
-shadow_y_entry.place(x=649, y=311)
+shadow_y_entry.place(x=649, y=321)
 
 shadow_z_entry = tkinter.Entry(win, width=6)
-shadow_z_entry.place(x=698, y=311)
+shadow_z_entry.place(x=698, y=321)
 
 shadow_label = tkinter.Label(win, text='x')
-shadow_label.place(x=623, y=331)
+shadow_label.place(x=623, y=341)
 
 shadow_label = tkinter.Label(win, text='y')
-shadow_label.place(x=666, y=331)
+shadow_label.place(x=666, y=341)
 
 shadow_label = tkinter.Label(win, text='z')
-shadow_label.place(x=709, y=331)
+shadow_label.place(x=709, y=341)
 
 
 # Plant Food
 pf_label = tkinter.Label(win, text='Can drop PF? :')
-pf_label.place(x=450, y=350)
+pf_label.place(x=450, y=360)
 
 pf_drop = tkinter.StringVar()
 pf_options = ["true", "false"]
 
 pf_drop.set(pf_options[0])
 drop = tkinter.OptionMenu(win, pf_drop, *pf_options)
-drop.place(x=598, y=350)
+drop.place(x=598, y=360)
 
 # Extra Code
 exprop_label = tkinter.Label(win, text='Extra Code')
-exprop_label.place(x=450, y=380)
+exprop_label.place(x=450, y=390)
 
 exprop_entry = tkinter.Entry(win, width=20)
-exprop_entry.place(x=600, y=381)
+exprop_entry.place(x=600, y=391)
 
 
 # ------ Commands Class ------
@@ -451,7 +456,7 @@ class commands:
         # For delete "Done!" message
         self.use_count = 0
 
-    # Command for codes and port as txt files
+    # Command for codes and port as json files
 
     def making_codes(self):
 
@@ -484,7 +489,7 @@ class commands:
         self.attack_mw = attack_mw_entry.get()
         self.attack_mx = attack_mx_entry.get()
         self.attack_my = attack_my_entry.get()
-        self.ground = ground_entry.get()
+        self.ground = ground_drop.get()
         self.hit_mh = hit_mh_entry.get()
         self.hit_mw = hit_mw_entry.get()
         self.hit_mx = hit_mx_entry.get()
@@ -495,6 +500,11 @@ class commands:
         self.pf = pf_drop.get()
         self.extype = extype_entry.get()
         self.exprop = exprop_entry.get()
+
+        if self.ground == 'blank':
+            self.ground = '""'
+        else:
+            pass
 
         # For custom commands
         if self.cc_use == 0:
@@ -507,7 +517,7 @@ class commands:
             self.codes = self.codeformat.format(self.comment, self.aliases, self.zombie_class, self.props, self.resource, self.audio, self.anim, self.pop, self.home, self.cost, self.eat, self.hp, self.speed, self.wave, self.weight, self.art_x,
                                                 self.art_y, self.attack_mh, self.attack_mw, self.attack_mx, self.attack_my, self.ground, self.hit_mh, self.hit_mw, self.hit_mx, self.hit_my, self.shadow_x, self.shadow_y, self.shadow_z, self.pf, self.extype, self.exprop)
 
-        # Make txt file & Write Code
+        # Make json file & Write Code
         with open(file_name, "w") as out_file:
             out_file.write(str(self.codes))
 
@@ -533,3 +543,6 @@ make_file_btn.place(x=900, y=550)
 # ------ Open Window ------
 
 win.mainloop()
+
+# ------ Note for make exe files because I`m forgot every update ... dumb so ignore this------
+# pyinstaller -w -F 
