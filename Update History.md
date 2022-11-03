@@ -46,7 +46,7 @@ ECG Making Progress :
  - [x] Zombie Properties Extra 
  - [x] Custom Armor
  - [ ] Specific Zombies  
-I will add 5 zombies in ECG, for easy to make specific zombies
+I will add 5 zombies in ECG, for easy to make specific zombies more zombie will add in future update, 2323 :)
 
  - [x] Add dropbox for GroundTrackName  
 Why I didn`t change this  
@@ -70,4 +70,4 @@ I will return at 2023 January ~ March
 
 ---
 
-Future update`s feature can be changed or deleted
+Future update`s feature can be changed or deleted in development
