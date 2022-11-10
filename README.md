@@ -8,6 +8,9 @@ Guide for CZCM is [here](https://wikidocs.net/book/8639)
 Download at [here](https://github.com/Peap1ant/Custom-Zombie-Code-Maker-for-pvz2/releases) for lates update!
 If you can`t use download files from Github, use [Google Drive](https://drive.google.com/drive/folders/1QJk3kmjBC5pce6Wm5FvTFiisCFb4pztX?usp=sharing)
 
+CZCM Colab version can early access for now!
+Link can be found in Guide
+
 Made by Peaplant
 
 Special thanks to
